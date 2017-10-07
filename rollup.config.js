@@ -3,10 +3,12 @@ import nodeResolve from 'rollup-plugin-node-resolve';
 import uglify from 'rollup-plugin-uglify';
 import bundleSize from 'rollup-plugin-bundle-size';
 import commonjs from 'rollup-plugin-commonjs';
+import json from 'rollup-plugin-json';
 
 const name = `haJson`;
 
 const plugins = [
+  json(),
   babel(),
   nodeResolve({
     module: true,
