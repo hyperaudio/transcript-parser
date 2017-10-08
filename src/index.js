@@ -17,7 +17,9 @@ const parse = html => new Promise((resolve, reject) => {
       };
 
       if (name === `p`) {
-        currentParagraph = {};
+        currentParagraph = {
+          startOffset: json.transcript.length,
+        };
         json.paragraphs.push(currentParagraph);
       }
 
@@ -28,13 +30,13 @@ const parse = html => new Promise((resolve, reject) => {
 
       if (attrs[`data-t`]) {
         const [start, duration] = attrs[`data-t`].split(`,`);
-        word.start = word.end = parseFloat(start);
+        word.start = parseFloat(start);
         if (!isNaN(parseFloat(duration))) word.end = word.start + parseFloat(duration);
       }
 
       if (currentParagraph) {
         if (!currentParagraph.start && word.start) {
-          currentParagraph.start = currentParagraph.end = word.start;
+          currentParagraph.start = word.start;
         }
         if (word.end) currentParagraph.end = word.end;
       }
@@ -56,7 +58,10 @@ const parse = html => new Promise((resolve, reject) => {
     },
 
     onclosetag: name => {
-      if (name === `p`) currentParagraph = null;
+      if (name === `p`) {
+        currentParagraph.endOffset = json.transcript.length;
+        currentParagraph = null;
+      }
       currentWord = {};
     },
 

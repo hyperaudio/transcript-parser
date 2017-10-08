@@ -28160,340 +28160,508 @@
   ],
   "paragraphs": [
     {
+      "startOffset": 0,
+      "start": 1.177,
       "end": 45.418,
-      "start": 1.177
+      "endOffset": 763
     },
     {
+      "startOffset": 763,
+      "start": 45.608,
       "end": 75.25699999999999,
-      "start": 45.608
+      "endOffset": 1291
     },
     {
+      "startOffset": 1291,
+      "start": 75.895,
       "end": 81.265,
-      "start": 75.895
+      "endOffset": 1400
     },
     {
+      "startOffset": 1400,
+      "start": 81.825,
       "end": 82.995,
-      "start": 81.825
+      "endOffset": 1438
     },
     {
+      "startOffset": 1438,
+      "start": 83.415,
       "end": 99.775,
-      "start": 83.415
+      "endOffset": 1697
     },
     {
+      "startOffset": 1697,
+      "start": 99.825,
       "end": 118.425,
-      "start": 99.825
+      "endOffset": 2045
     },
     {
+      "startOffset": 2045,
+      "start": 118.735,
       "end": 124.053,
-      "start": 118.735
+      "endOffset": 2160
     },
     {
+      "startOffset": 2160,
+      "start": 124.085,
       "end": 138.45499999999998,
-      "start": 124.085
+      "endOffset": 2475
     },
     {
+      "startOffset": 2475,
+      "start": 138.855,
       "end": 161.92999999999998,
-      "start": 138.855
+      "endOffset": 2918
     },
     {
+      "startOffset": 2918,
+      "start": 162.48,
       "end": 213.27,
-      "start": 162.48
+      "endOffset": 3882
     },
     {
+      "startOffset": 3882,
+      "start": 214.285,
       "end": 222.80499999999998,
-      "start": 214.285
+      "endOffset": 4019
     },
     {
+      "startOffset": 4019,
+      "start": 222.855,
       "end": 236.595,
-      "start": 222.855
+      "endOffset": 4293
     },
     {
+      "startOffset": 4293,
+      "start": 237.005,
       "end": 257.445,
-      "start": 237.005
+      "endOffset": 4606
     },
     {
+      "startOffset": 4606,
+      "start": 257.644,
       "end": 320.84,
-      "start": 257.644
+      "endOffset": 5760
     },
     {
+      "startOffset": 5760,
+      "start": 322.47,
       "end": 327.23,
-      "start": 322.47
+      "endOffset": 5849
     },
     {
+      "startOffset": 5849,
+      "start": 327.68,
       "end": 343.24,
-      "start": 327.68
+      "endOffset": 6116
     },
     {
+      "startOffset": 6116,
+      "start": 343.84,
       "end": 349.96,
-      "start": 343.84
+      "endOffset": 6237
     },
     {
+      "startOffset": 6237,
+      "start": 349.96,
       "end": 404.76,
-      "start": 349.96
+      "endOffset": 7238
     },
     {
+      "startOffset": 7238,
+      "start": 405.19,
       "end": 410.17,
-      "start": 405.19
+      "endOffset": 7339
     },
     {
+      "startOffset": 7339,
+      "start": 410.67,
       "end": 419.95,
-      "start": 410.67
+      "endOffset": 7506
     },
     {
+      "startOffset": 7506,
+      "start": 419.95,
       "end": 420.93,
-      "start": 419.95
+      "endOffset": 7534
     },
     {
+      "startOffset": 7534,
+      "start": 421,
       "end": 422.97,
-      "start": 421
+      "endOffset": 7573
     },
     {
+      "startOffset": 7573,
+      "start": 423.515,
       "end": 429.335,
-      "start": 423.515
+      "endOffset": 7709
     },
     {
+      "startOffset": 7709,
+      "start": 429.575,
       "end": 429.91499999999996,
-      "start": 429.575
+      "endOffset": 7716
     },
     {
+      "startOffset": 7716,
+      "start": 430.115,
       "end": 432.675,
-      "start": 430.115
+      "endOffset": 7749
     },
     {
+      "startOffset": 7749,
+      "start": 432.765,
       "end": 462.355,
-      "start": 432.765
+      "endOffset": 8429
     },
     {
+      "startOffset": 8429,
+      "start": 462.875,
       "end": 468.755,
-      "start": 462.875
+      "endOffset": 8514
     },
     {
+      "startOffset": 8514,
+      "start": 468.985,
       "end": 469.345,
-      "start": 468.985
+      "endOffset": 8528
     },
     {
+      "startOffset": 8528,
+      "start": 469.375,
       "end": 481.15500000000003,
-      "start": 469.375
+      "endOffset": 8778
     },
     {
+      "startOffset": 8778,
+      "start": 481.375,
       "end": 511.23,
-      "start": 481.375
+      "endOffset": 9269
     },
     {
+      "startOffset": 9269,
+      "start": 511.32,
       "end": 555.87,
-      "start": 511.32
+      "endOffset": 9957
     },
     {
+      "startOffset": 9957,
+      "start": 556.46,
       "end": 604.5200000000001,
-      "start": 556.46
+      "endOffset": 10716
     },
     {
+      "startOffset": 10716,
+      "start": 605.83,
       "end": 615.73,
-      "start": 605.83
+      "endOffset": 10858
     },
     {
+      "startOffset": 10858,
+      "start": 616.03,
       "end": 633.03,
-      "start": 616.03
+      "endOffset": 11127
     },
     {
+      "startOffset": 11127,
+      "start": 633.62,
       "end": 634.63,
-      "start": 633.62
+      "endOffset": 11153
     },
     {
+      "startOffset": 11153,
+      "start": 634.68,
       "end": 637.38,
-      "start": 634.68
+      "endOffset": 11195
     },
     {
+      "startOffset": 11195,
+      "start": 638.03,
       "end": 640.41,
-      "start": 638.03
+      "endOffset": 11248
     },
     {
+      "startOffset": 11248,
+      "start": 640.41,
       "end": 641.83,
-      "start": 640.41
+      "endOffset": 11284
     },
     {
+      "startOffset": 11284,
+      "start": 643.939,
       "end": 664.6089999999999,
-      "start": 643.939
+      "endOffset": 11657
     },
     {
+      "startOffset": 11657,
+      "start": 664.609,
       "end": 748.114,
-      "start": 664.609
+      "endOffset": 13091
     },
     {
+      "startOffset": 13091,
+      "start": 748.704,
       "end": 750.124,
-      "start": 748.704
+      "endOffset": 13129
     },
     {
+      "startOffset": 13129,
+      "start": 751.774,
       "end": 787.504,
-      "start": 751.774
+      "endOffset": 13780
     },
     {
+      "startOffset": 13780,
+      "start": 787.694,
       "end": 789.974,
-      "start": 787.694
+      "endOffset": 13854
     },
     {
+      "startOffset": 13854,
+      "start": 790.164,
       "end": 796.334,
-      "start": 790.164
+      "endOffset": 13983
     },
     {
+      "startOffset": 13983,
+      "start": 797.584,
       "end": 813.104,
-      "start": 797.584
+      "endOffset": 14327
     },
     {
+      "startOffset": 14327,
+      "start": 813.664,
       "end": 853.354,
-      "start": 813.664
+      "endOffset": 14999
     },
     {
+      "startOffset": 14999,
+      "start": 854.789,
       "end": 856.279,
-      "start": 854.789
+      "endOffset": 15042
     },
     {
+      "startOffset": 15042,
+      "start": 856.281,
       "end": 857.317,
-      "start": 856.281
+      "endOffset": 15079
     },
     {
+      "startOffset": 15079,
+      "start": 857.729,
       "end": 859.499,
-      "start": 857.729
+      "endOffset": 15119
     },
     {
+      "startOffset": 15119,
+      "start": 859.499,
       "end": 864.5690000000001,
-      "start": 859.499
+      "endOffset": 15208
     },
     {
+      "startOffset": 15208,
+      "start": 864.999,
       "end": 898.299,
-      "start": 864.999
+      "endOffset": 15732
     },
     {
+      "startOffset": 15732,
+      "start": 899.419,
       "end": 953.129,
-      "start": 899.419
+      "endOffset": 16666
     },
     {
+      "startOffset": 16666,
+      "start": 954.744,
       "end": 958.474,
-      "start": 954.744
+      "endOffset": 16760
     },
     {
+      "startOffset": 16760,
+      "start": 958.504,
       "end": 959.254,
-      "start": 958.504
+      "endOffset": 16798
     },
     {
+      "startOffset": 16798,
+      "start": 959.254,
       "end": 972.344,
-      "start": 959.254
+      "endOffset": 17036
     },
     {
+      "startOffset": 17036,
+      "start": 972.374,
       "end": 1017.614,
-      "start": 972.374
+      "endOffset": 17840
     },
     {
+      "startOffset": 17840,
+      "start": 1017.614,
       "end": 1018.444,
-      "start": 1017.614
+      "endOffset": 17859
     },
     {
+      "startOffset": 17859,
+      "start": 1018.924,
       "end": 1031.644,
-      "start": 1018.924
+      "endOffset": 18122
     },
     {
+      "startOffset": 18122,
+      "start": 1032.424,
       "end": 1038.194,
-      "start": 1032.424
+      "endOffset": 18239
     },
     {
+      "startOffset": 18239,
+      "start": 1038.664,
       "end": 1062.6039999999998,
-      "start": 1038.664
+      "endOffset": 18746
     },
     {
+      "startOffset": 18746,
+      "start": 1062.854,
       "end": 1066.358,
-      "start": 1062.854
+      "endOffset": 18820
     },
     {
+      "startOffset": 18820,
+      "start": 1066.359,
       "end": 1068.304,
-      "start": 1066.359
+      "endOffset": 18883
     },
     {
+      "startOffset": 18883,
+      "start": 1068.694,
       "end": 1070.3339999999998,
-      "start": 1068.694
+      "endOffset": 18920
     },
     {
+      "startOffset": 18920,
+      "start": 1070.494,
       "end": 1074.794,
-      "start": 1070.494
+      "endOffset": 19010
     },
     {
+      "startOffset": 19010,
+      "start": 1077.054,
       "end": 1091.984,
-      "start": 1077.054
+      "endOffset": 19199
     },
     {
+      "startOffset": 19199,
+      "start": 1092.014,
       "end": 1098.334,
-      "start": 1092.014
+      "endOffset": 19325
     },
     {
+      "startOffset": 19325,
+      "start": 1099.564,
       "end": 1101.024,
-      "start": 1099.564
+      "endOffset": 19371
     },
     {
+      "startOffset": 19371,
+      "start": 1101.704,
       "end": 1110.594,
-      "start": 1101.704
+      "endOffset": 19593
     },
     {
+      "startOffset": 19593,
+      "start": 1111.974,
       "end": 1139.0439999999999,
-      "start": 1111.974
+      "endOffset": 20034
     },
     {
+      "startOffset": 20034,
+      "start": 1139.044,
       "end": 1140.093,
-      "start": 1139.044
+      "endOffset": 20070
     },
     {
+      "startOffset": 20070,
+      "start": 1140.094,
       "end": 1143.614,
-      "start": 1140.094
+      "endOffset": 20126
     },
     {
+      "startOffset": 20126,
+      "start": 1143.614,
       "end": 1162.944,
-      "start": 1143.614
+      "endOffset": 20481
     },
     {
+      "startOffset": 20481,
+      "start": 1163.214,
       "end": 1201.504,
-      "start": 1163.214
+      "endOffset": 21119
     },
     {
+      "startOffset": 21119,
+      "start": 1201.804,
       "end": 1222.434,
-      "start": 1201.804
+      "endOffset": 21455
     },
     {
+      "startOffset": 21455,
+      "start": 1223.174,
       "end": 1227.994,
-      "start": 1223.174
+      "endOffset": 21555
     },
     {
+      "startOffset": 21555,
+      "start": 1228.234,
       "end": 1228.674,
-      "start": 1228.234
+      "endOffset": 21569
     },
     {
+      "startOffset": 21569,
+      "start": 1229.474,
       "end": 1230.624,
-      "start": 1229.474
+      "endOffset": 21600
     },
     {
+      "startOffset": 21600,
+      "start": 1230.694,
       "end": 1237.664,
-      "start": 1230.694
+      "endOffset": 21731
     },
     {
+      "startOffset": 21731,
+      "start": 1238.764,
       "end": 1240.754,
-      "start": 1238.764
+      "endOffset": 21773
     },
     {
+      "startOffset": 21773,
+      "start": 1241.104,
       "end": 1255.934,
-      "start": 1241.104
+      "endOffset": 22051
     },
     {
+      "startOffset": 22051,
+      "start": 1256.174,
       "end": 1257.374,
-      "start": 1256.174
+      "endOffset": 22091
     },
     {
+      "startOffset": 22091,
+      "start": 1257.544,
       "end": 1258.0339999999999,
-      "start": 1257.544
+      "endOffset": 22110
     },
     {
+      "startOffset": 22110,
+      "start": 1258.544,
       "end": 1264.734,
-      "start": 1258.544
+      "endOffset": 22222
     },
     {
+      "startOffset": 22222,
+      "start": 1264.834,
       "end": 1266.084,
-      "start": 1264.834
+      "endOffset": 22270
     }
   ]
 }
