@@ -5,6 +5,7 @@ const parse = html => new Promise((resolve, reject) => {
     transcript: ``,
     words: [],
     paragraphs: [],
+    speakers: [],
   };
 
   let currentWord = {};
@@ -12,15 +13,18 @@ const parse = html => new Promise((resolve, reject) => {
 
   const parser = new htmlparser.Parser({
     onopentag: (name, attrs) => {
-      const word = {
-        // tag: name
-      };
+      const word = {};
 
       if (name === `p`) {
         currentParagraph = {
           startOffset: json.transcript.length,
         };
         json.paragraphs.push(currentParagraph);
+
+        if (attrs[`data-tc`]) {
+          const [hh, mm, ss] = attrs[`data-tc`].split(`:`);
+          currentParagraph.start = parseInt(hh) * 3600 + parseInt(mm) * 60 + parseInt(ss);
+        }
       }
 
       if (attrs[`data-m`]) {
@@ -32,6 +36,10 @@ const parse = html => new Promise((resolve, reject) => {
         const [start, duration] = attrs[`data-t`].split(`,`);
         word.start = parseFloat(start);
         if (!isNaN(parseFloat(duration))) word.end = word.start + parseFloat(duration);
+      }
+
+      if (attrs[`class`] && attrs[`class`] === `speaker`) {
+        word.speaker = true;
       }
 
       if (currentParagraph) {
@@ -47,6 +55,10 @@ const parse = html => new Promise((resolve, reject) => {
 
     ontext: text => {
       const word = currentWord;
+
+      if (word.speaker) {
+        currentParagraph.speaker = text.trim().replace(`:`, ``);
+      }
 
       word.text = text.trim();
 
