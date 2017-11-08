@@ -1,6 +1,6 @@
 {
   "name": "@hyperaudio/transcript-converter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JSON serialisation of Hyperaudio HTML transcripts",
   "main": "cjs/index.js",
   "browser": "dist/haJson.js",
