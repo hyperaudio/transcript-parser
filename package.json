@@ -1,6 +1,6 @@
 {
   "name": "@hyperaudio/transcript-converter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Hyperaudio HTML transcript to JSON converter",
   "main": "cjs/index.js",
   "browser": "dist/transcript-converter.js",
