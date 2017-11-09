@@ -61,6 +61,7 @@ const parse = (html, offsets = false, digits = 2) => new Promise((resolve, rejec
 
       if (word.speaker) {
         currentParagraph.speaker = text.trim().replace(/[:|\[|\]]/g, ``);
+        if (!json.speakers.includes(currentParagraph.speaker)) json.speakers.push(currentParagraph.speaker);
       }
 
       word.text = text.trim();
