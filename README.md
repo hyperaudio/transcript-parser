@@ -1,18 +1,19 @@
 # transcript-converter
 
-![Node](https://img.shields.io/node/v/ha-json.svg?style=flat-square)
-[![NPM](https://img.shields.io/npm/v/ha-json.svg?style=flat-square)](https://www.npmjs.com/package/ha-json)
-[![Travis](https://img.shields.io/travis/hyperaudio/ha-json/master.svg?style=flat-square)](https://travis-ci.org/hyperaudio/ha-json)
-[![David](https://img.shields.io/david/hyperaudio/ha-json.svg?style=flat-square)](https://david-dm.org/hyperaudio/ha-json)
-[![Coverage Status](https://img.shields.io/coveralls/hyperaudio/ha-json.svg?style=flat-square)](https://coveralls.io/github/hyperaudio/ha-json)
+![Node](https://img.shields.io/node/v/@hyperaudio/transcript-converter.svg?style=flat-square)
+[![NPM](https://img.shields.io/npm/v/@hyperaudio/transcript-converter.svg?style=flat-square)](https://www.npmjs.com/package/@hyperaudio/transcript-converter)
+[![Travis](https://img.shields.io/travis/hyperaudio/transcript-converter/master.svg?style=flat-square)](https://travis-ci.org/hyperaudio/transcript-converter)
+[![David](https://img.shields.io/david/hyperaudio/transcript-converter.svg?style=flat-square)](https://david-dm.org/hyperaudio/transcript-converter)
+[![Coverage Status](https://img.shields.io/coveralls/hyperaudio/transcript-converter.svg?style=flat-square)](https://coveralls.io/github/hyperaudio/transcript-converter)
 
-> JSON serialisation of Hyperaudio HTML transcripts
+> Hyperaudio HTML transcript to JSON converter
 
 ### Usage
 
 ```js
 import transcriptConverter from '@hyperaudio/transcript-converter';
 
+const converted = transcriptConverter(html);
 ```
 
 ### Installation
