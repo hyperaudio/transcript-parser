@@ -5,7 +5,7 @@ import bundleSize from 'rollup-plugin-bundle-size';
 import commonjs from 'rollup-plugin-commonjs';
 import json from 'rollup-plugin-json';
 
-const name = `haJson`;
+const name = `transcript-converter`;
 
 const plugins = [
   json(),
@@ -27,6 +27,6 @@ export default {
   entry: `src/index.js`,
   plugins,
   dest: `dist/${name}${isProd ? `.min` : ``}.js`,
-  moduleName: name,
+  moduleName: `transcriptConverter`, // name,
   format: `umd`
 };
