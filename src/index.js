@@ -1,12 +1,13 @@
 import htmlparser from 'htmlparser2';
 
-const parse = html => new Promise((resolve, reject) => {
+const parse = (html, offsets = false, digits = 2) => new Promise((resolve, reject) => {
   const json = {
-    transcript: ``,
     words: [],
     paragraphs: [],
     speakers: [],
   };
+
+  if (offsets) json.transcript = ``;
 
   let currentWord = {};
   let currentParagraph;
@@ -16,9 +17,8 @@ const parse = html => new Promise((resolve, reject) => {
       const word = {};
 
       if (name === `p`) {
-        currentParagraph = {
-          startOffset: json.transcript.length,
-        };
+        currentParagraph = {};
+        if (offsets) currentParagraph.startOffset = json.transcript.length;
         json.paragraphs.push(currentParagraph);
 
         if (attrs[`data-tc`]) {
@@ -29,7 +29,7 @@ const parse = html => new Promise((resolve, reject) => {
 
       if (attrs[`data-m`]) {
         word.start = parseInt(attrs[`data-m`]) / 1e3;
-        if (attrs[`data-d`]) word.end = word.start + parseInt(attrs[`data-d`]) / 1e3;
+        if (attrs[`data-d`]) word.end = word.start + (parseInt(attrs[`data-d`]) / 1e3);
       }
 
       if (attrs[`data-t`]) {
@@ -41,6 +41,9 @@ const parse = html => new Promise((resolve, reject) => {
       if (attrs[`class`] && attrs[`class`] === `speaker`) {
         word.speaker = true;
       }
+
+      if (word.start) word.start = parseFloat(word.start.toFixed(digits));
+      if (word.end) word.end = parseFloat(word.end.toFixed(digits));
 
       if (currentParagraph) {
         if (!currentParagraph.start && word.start) {
@@ -62,16 +65,18 @@ const parse = html => new Promise((resolve, reject) => {
 
       word.text = text.trim();
 
-      word.startOffset = json.transcript.length;
-      json.transcript += text;
-      word.endOffset = json.transcript.length;
+      if (offsets) {
+        word.startOffset = json.transcript.length;
+        json.transcript += text;
+        word.endOffset = json.transcript.length;
+      }
 
       if (json.words.length === 0 || word !== json.words[json.words.length - 1]) json.words.push(word);
     },
 
     onclosetag: name => {
       if (name === `p`) {
-        currentParagraph.endOffset = json.transcript.length;
+        if (offsets) currentParagraph.endOffset = json.transcript.length;
         currentParagraph = null;
       }
       currentWord = {};
