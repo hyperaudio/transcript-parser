@@ -60,7 +60,7 @@ const parse = (html, offsets = false, digits = 2) => new Promise((resolve, rejec
       const word = currentWord;
 
       if (word.speaker) {
-        currentParagraph.speaker = text.trim().replace(`:`, ``);
+        currentParagraph.speaker = text.trim().replace(/[:|\[|\]]/g, ``);
       }
 
       word.text = text.trim();
