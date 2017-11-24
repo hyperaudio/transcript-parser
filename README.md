@@ -13,7 +13,9 @@
 ```js
 import transcriptConverter from '@hyperaudio/transcript-converter';
 
-const converted = transcriptConverter(html);
+transcriptConverter(html).then(converted => {
+  console.log(converted);
+});
 ```
 
 ### Installation

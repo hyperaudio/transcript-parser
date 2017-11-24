@@ -1,6 +1,6 @@
 import htmlparser from 'htmlparser2';
 
-const parse = (html, offsets = false, digits = 2) => new Promise((resolve, reject) => {
+export default (html, offsets = false, digits = 2) => new Promise((resolve, reject) => {
   const json = {
     words: [],
     paragraphs: [],
@@ -99,7 +99,3 @@ const parse = (html, offsets = false, digits = 2) => new Promise((resolve, rejec
   parser.write(html);
   parser.end();
 });
-
-export default html => {
-  return parse(html);
-};
