@@ -1,9 +1,9 @@
 {
-  "name": "@hyperaudio/transcript-converter",
+  "name": "@hyperaudio/transcript-parser",
   "version": "0.0.4",
   "description": "Hyperaudio HTML transcript to JSON converter",
   "main": "cjs/index.js",
-  "browser": "dist/transcript-converter.js",
+  "browser": "dist/transcript-parser.js",
   "module": "es/index.js",
   "jsxnext:main": "es/index.js",
   "files": [
@@ -36,7 +36,7 @@
   "keywords": [],
   "author": "Laurian Gridinoc (laurian@gridinoc.name)",
   "license": "MIT",
-  "repository": "hyperaudio/transcript-converter",
+  "repository": "hyperaudio/transcript-parser",
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-core": "^6.17.0",
