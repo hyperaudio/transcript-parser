@@ -21,10 +21,10 @@ export default (html, offsets = false, digits = 2) => new Promise((resolve, reje
         if (offsets) currentParagraph.startOffset = json.transcript.length;
         json.paragraphs.push(currentParagraph);
 
-        if (attrs[`data-tc`]) {
-          const [hh, mm, ss] = attrs[`data-tc`].split(`:`);
-          currentParagraph.start = parseInt(hh) * 3600 + parseInt(mm) * 60 + parseInt(ss);
-        }
+        // if (attrs[`data-tc`]) {
+        //   const [hh, mm, ss] = attrs[`data-tc`].split(`:`);
+        //   currentParagraph.start = parseInt(hh) * 3600 + parseInt(mm) * 60 + parseInt(ss);
+        // }
       }
 
       if (attrs[`data-m`]) {
